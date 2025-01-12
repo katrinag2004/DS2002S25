@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ds2002
 title: "Schedule"
 nav_order: 3
 ---
