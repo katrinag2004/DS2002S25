@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ds2002
 title: "Assignments"
 nav_order: 4
 ---
