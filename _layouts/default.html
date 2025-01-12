@@ -8,14 +8,34 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></h1>
-        <p>{{ site.description }}</p>
-      </header>
-      <section>
+  <div class="wrapper">
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></h1>
+      <p>{{ site.description }}</p>
+    </header>
+
+    <!-- Begin: Our custom content container -->
+    <div class="content-container">
+      
+      <!-- Sidebar -->
+      <nav class="sidebar">
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/syllabus' | relative_url }}">Syllabus</a></li>
+          <li><a href="{{ '/schedule' | relative_url }}">Schedule</a></li>
+          <li><a href="{{ '/assignments' | relative_url }}">Assignments</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="main-content">
         {{ content }}
-      </section>
+      </main>
+
     </div>
-  </body>
+    <!-- End: Our custom content container -->
+
+  </div>
+</body>
+
 </html>
