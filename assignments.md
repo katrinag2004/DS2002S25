@@ -15,4 +15,4 @@ Please keep an eye on this page for updates!
 | **Title**             | **Details**                                              | **Category**         | **Due Date**   |
 |-----------------------|----------------------------------------------------------|----------------------|----------------|
 | Survey                | Fill out the class survey.[Survey](https://docs.google.com/forms/d/11WEGQJP1ZFpXx41TPZ7KUKFrLLaW5JneuNLmy932hZI/edit)                              | Class Participation  | Jan 13         |
-| [Warriors Case Study](https://hbsp.harvard.edu/import/1255415)   | Download and read by class; HW will be based on this.    | Homework             | Jan 18         |
+| [Warriors Case Study](https://hbsp.harvard.edu/import/1255415)   | Download and read by class; HW will be based on this.    | [Homework](https://canvas.its.virginia.edu/courses/127399/assignments/640532)          | Jan 18         |
