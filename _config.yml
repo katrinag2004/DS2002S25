@@ -1,3 +1,11 @@
-title: "DS2002 Spring 2025"
-description: "Syllabus, schedule, and assignments"
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: jekyll/minima
+title: "DS2002 Course Website"
+description: "Syllabus, schedule, assignments, and more"
+
+# Minima options (optional customization)
+minima:
+  skin: dark         # Options: light, dark, solarized
+  social_links:       # Optional social links for footer
+    github: https://github.com/fourfeatherz
+    linkedin: https://linkedin.com/in/your-profile
+    twitter: https://twitter.com/your-handle
