@@ -1,41 +1,95 @@
-/* Center the entire site horizontally, max width 960px */
+/* 1. Optional body defaults */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+/* 2. A wrapper to center and contain everything */
 .wrapper {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 1rem;
+  max-width: 960px;      /* site width */
+  margin: 0 auto;        /* center horizontally */
+  padding: 1rem;         /* space around edges */
 }
 
-/* Put sidebar + main content in a horizontal row */
+/* 3. A flex container for the sidebar + main content */
 .content-container {
-  display: flex;
-  /* This will space out the sidebar & main content horizontally */
+  display: flex;         /* horizontal layout */
+  margin-top: 1rem;      /* small gap from the header */
 }
 
-/* Sidebar styling */
+/* 4. Sidebar styles */
 .sidebar {
-  width: 220px;               /* fixed width for your sidebar */
+  width: 220px;          /* fixed width */
   background-color: #f7f7f7;
   padding: 1rem;
   border-right: 1px solid #ddd;
-  margin-right: 1rem;         /* some space to the right of the sidebar */
 }
 
 .sidebar ul {
-  list-style-type: none;
+  list-style: none;
   padding-left: 0;
+  margin-top: 0;
 }
 
 .sidebar a {
-  text-decoration: none;
   color: #333;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 .sidebar a:hover {
   text-decoration: underline;
 }
 
-/* Main content takes the rest of the space */
+/* 5. Main content area flexes to fill remaining space */
 .main-content {
-  flex: 1;  /* automatically expands to fill the remaining width */
-  min-width: 0; /* helps keep content from overflowing in flex containers */
+  flex: 1;
+  padding: 1rem;
+}
+
+/* 6. Header styling (optional) */
+header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* 7. Simple link styling in the main area */
+.main-content a {
+  color: #007acc;
+}
+.main-content a:hover {
+  text-decoration: underline;
+}
+
+/* 8. Table styling (if you use markdown tables) */
+table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+}
+th {
+  background-color: #f0f0f0;
+}
+
+/* 9. Additional utility classes (optional) */
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
 }
