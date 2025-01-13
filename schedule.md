@@ -22,7 +22,7 @@ Below is our updated 15-week schedule with **M/W** class meetings starting **Jan
 
 **Jan 15 (Wed)**  
 - **Case Study:** Data Science at the Golden State Warriors  
-  - [Harvard Case Link](https://hbsp.harvard.edu/import/1255415)  
+  - [Harvard Case Link](https://hbsp.harvard.edu/import/1255415)
 - **Content:** Exploring how the Warriors leverage data science for performance  
 - **Activity:** Case Study Discussion. HW will be assigned  
 - **Reading:** _Harvard Case Download_ (PRE-READ before class)
