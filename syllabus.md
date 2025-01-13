@@ -10,7 +10,7 @@ nav_order: 2
 **Instructor:** Jason Williamson ([jp4ma@virginia.edu](mailto:jp4ma@virginia.edu))  
 **TA:** Elijah Kim ([cys8qu@virginia.edu](mailto:cys8qu@virginia.edu))  
 
-**GitRepo:** *(TBD—please insert link when available)*  
+ 
 
 ---
 
