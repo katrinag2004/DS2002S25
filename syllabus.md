@@ -1,5 +1,5 @@
 ---
-layout: ds2002
+layout: default
 title: "Syllabus"
 nav_order: 2
 ---
