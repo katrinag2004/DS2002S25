@@ -1,5 +1,5 @@
 ---
-layout: ds2002
+layout: default
 title: "Home"
 nav_order: 1
 ---
