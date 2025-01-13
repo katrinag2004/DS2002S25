@@ -1,1 +1,1 @@
-# SQl Resources
+# SQL Resources
