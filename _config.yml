@@ -2,6 +2,16 @@ remote_theme: jekyll/minima
 title: "DS2002 Course Website"
 description: "Syllabus, schedule, assignments, and more"
 
+nav_links:
+  - name: Home
+    url: /
+  - name: Syllabus
+    url: /syllabus
+  - name: Schedule
+    url: /schedule
+  - name: Assignments
+    url: /assignments
+    
 # Minima options (optional customization)
 minima:
   skin: dark         # Options: light, dark, solarized
