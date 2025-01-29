@@ -41,25 +41,4 @@ CREATE TABLE Enrollments (
 
 );
 
--- Insert sample data into Students table
-INSERT INTO Students (FirstName, LastName, DateOfBirth, Email)
-VALUES 
-('John', 'Doe', '2000-05-20', 'john.doe@example.com'),
-('Jane', 'Smith', '2001-07-15', 'jane.smith@example.com');
 
--- Insert sample data into Courses table
-INSERT INTO Courses (CourseName, Credits, Instructor)
-VALUES 
-('Mathematics', 3, 'Dr. Adams'),
-('Physics', 4, 'Dr. Brown');
-
--- Insert sample data into Enrollments table
-INSERT INTO Enrollments (StudentID, CourseID, Grade)
-VALUES 
-(1, 1, 'A'),
-(2, 2, 'B');
-
--- Verify data by selecting records
-SELECT * FROM Students;
-SELECT * FROM Courses;
-SELECT * FROM Enrollments;
